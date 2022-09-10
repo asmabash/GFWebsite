@@ -26,8 +26,10 @@ body {
 .main-page-body {
   direction: rtl;
   text-align: right;
-  background-image: url("../images/restaurant_pic-overlay1.jpg");
-  background-color: #ffffff;
+  background-image: url("../images/restaurant_pic.jpg");
+  /* background-image: url("../images/restaurant_pic-overlay1.jpg"); */
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
   background-size: cover;
   background-repeat: no-repeat;
 }

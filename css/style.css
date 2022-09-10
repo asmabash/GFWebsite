@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Tajawal:wght@500&display=swap");
+* {
+  box-sizing: border-box; /*commented cuz idk what it does*/
+  margin: 0;
+  padding: 0;
+}
+li,
+label,
+p,
+button {
+  font-family: "Tajawal", "Baloo Bhaijaan 2", sans-serif;
+  font-weight: 500;
+  font-size: 110%;
+  /* color: rgb(255, 255, 255); */
+  text-decoration: none;
+}
+body,
+html {
+  width: 100%;
+  /* height: 100%;*/
+}
+body {
+  background-color: white;
+  background: #fff;
+}
+.main-page-body {
+  direction: rtl;
+  text-align: right;
+  background-image: url("../images/restaurant_pic-overlay1.jpg");
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.search-restaurant {
+  background-color: #fff;
+}
+header {
+  background-color: black;
+}
+
+.explanation-text {
+  color: white;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 400;
+  font-family: "Tajawal", "Baloo Bhaijaan 2", sans-serif;
+}
+
+
+.navbar {
+  width: 100%;
+  min-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-item {
+  list-style: none;
+}
+.nav-link {
+  color: rgb(214, 212, 212);
+  text-decoration: none;
+  transition: 0.1s ease;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.mainpage-button {
+  margin: 0 10% 10% 10%;
+  /* top | right | bottom | left */
+  padding: 1.5% 4% 1.2% 4%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  color: rgb(255, 255, 255);
+  border-color: white;
+  border-style: solid;
+  width: 250px;
+  height: 10%;
+  font-size: 26px;
+}
+.mainpage-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.button1 {
+  margin: 10% 10% 10% 3%;
+}
+
+.button2 {
+  margin: 10% 3% 10% 10%;
+}
+.query-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 0 15% 0 15%;
+}
+/* for the ugly arrow next to input field
+[list]::-webkit-calendar-picker-indicator {
+    background-color: inherit !important;
+  }
+[list]::-webkit-list-button{
+    display: none !important;  
+}
+*/
+main {
+  margin-top: 10%;
+}
+.name {
+  padding: 0;
+  display: block;
+  font-size: 450%;
+  text-align: center;
+  color: #ffbb2a;
+  margin-top: 15%;
+  margin-bottom: 0;
+}
+
+.city-width {
+  width: 200%;
+  text-align: right;
+}
+
+.nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+.navbar.scrolled {
+  background-color: rgb(255, 255, 255) !important;
+}
+.navbar.scrolled li a {
+  color: rgb(51, 51, 51);
+}
+.navbar.scrolled li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.wrap {
+  max-width: 350px;
+  margin: auto;
+  padding: 20px;
+  background: #ffffff;
+  margin-top: 160px;
+  border-radius: 20px;
+}
+.signup-form {
+  margin-top: 50px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  border: 1px solid gray;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.center-h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.sign-btn {
+  font-size: 16px;
+  margin-top: 30px;
+  color: #fff;
+  font-weight: bold;
+  /* background: rgb(255, 174, 0); */
+  /* background: rgb(125, 197, 141); */
+  background: #fe4066;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+/* keeo this consistent with other buttons */
+.sign-btn:hover {
+  background: #f85076;
+}
+.comment-btn {
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-right: 710px;
+  margin-top: 50px;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: #fff;
+}
+.search-form {
+  box-shadow: 0 0 15px grey;
+}
+
+
+table {
+  table-layout: fixed;
+}
+.results-table tr td {
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.checked {
+  color: orange;
+}
+.list-div {
+  margin-top: 80px;
+  margin-right: 300px;
+  margin-left: 300px;
+  display: inline-block;
+  /* width: 100%; */
+}
+#ratings-num {
+  font-size: 15px;
+}
+.star {
+  font-size: 20px !important;
+  margin-top: 10px;
+}
+#restaurant-name {
+  text-decoration: none;
+  text-align: right;
+  color: rgb(25, 144, 223);
+}
+#restaurant-name:hover {
+  text-decoration: underline;
+}
+.user-review {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.user-name {
+  margin-bottom: 10px;
+}
+.switch-signup-button {
+  color: rgb(0, 117, 196);
+}
+.switch-signup-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.review-area {
+  margin-top: 40px;
+}
+
+.submit-comment-btn {
+  width: 70px;
+  text-align: center;
+  margin-top: 40px;
+}
+.error-msg {
+  color: red;
+  margin: auto;
+  text-align: center;
+}
+.confirm-msg {
+  color: #3dae63;
+  margin: auto;
+  text-align: center;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3 ease-in-out;
+  -webkit-transition: all 0.3 ease-in-out;
+  background-color: white;
+}
+.nav-branding{
+  position: absolute;
+  right: 29px;
+}
+
+.who-we-are-text{
+  margin: 30px;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    width: 100%;
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: black;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0px;
+  }
+
+  .explanation-text {
+    font-size: 36px;
+    font-weight: 200;
+    margin-top: 150px;
+  }
+
+  .list-div {
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 20px;
+  }
+
+  .comment-btn {
+    padding: 10px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .nav-branding{
+    right:auto;
+    left: 10px;
+  }
+  .query-form{
+    margin-top: 100px;
+    flex-direction: column;
+align-items: center;  
+
+  }
+  .mainpage-button{
+    margin: auto;
+    margin-top: 30px;
+    width: 200px;
+    font-size: 32px;
+    padding-top: 8px;
+}
+  
+.main-page-body{
+  background-size:1350px
+}
+
+}

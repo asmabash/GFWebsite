@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <link rel="stylesheet" href="main.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل دخول</title>
+</head>
+<body>
+    <div style="color: red;"  id="myOverlay" class="overlay">
+        <span class="close-button" onclick="closeForm()" title="Close Overlay">&#215</span>
+        <div class="wrap">
+    <h2>أهلًا وسهلًا</h2>
+    <form class="signup-form">
+    <input type="text" id="username" placeholder="اسم المستخدم">
+    <input type="email" id="email" placeholder="البريد الإلكتروني">
+    <input type="password" id="password" placeholder="كلمة المرور">
+    <input type="password" id="confirm-password" placeholder="تأكيد كلمة المرور">
+    <input type="submit" value="تسجيل">
+</form>
+</div>
+</div>
+<script>
+    function openForm(){
+        document.getElementById("myOverlay").style.display = "block";
+    }
+    function closeForm(){
+        document.getElementById("myOverlay").style.display = "none";
+    }
+</script>
+</body>
+</html>

@@ -1,5 +1,4 @@
 <?php
-include "includes/header.php";
 function emptyInputSignup($username, $email, $password, $passwordRepeat)
 {
     $result;

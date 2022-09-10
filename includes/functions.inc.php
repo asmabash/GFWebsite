@@ -18,7 +18,7 @@ function invalidUsername($username)
     // ^[\u0621-\u064Aa-zA-Z\d\-_\s]+$
     // if (!preg_match("/^[أ-يa-zA-Z٠-٩0-9]*$/", $username))
 
-    if (!preg_match("~^[\u0621-\u064Aa-zA-Z\d\-_\s]+$~", $username)) {
+    if (!preg_match("/^[\p{Arabic}A-Za-z0-9 ]+$/u", $username)) {
         $result = true;
     } else {
         $result = false;

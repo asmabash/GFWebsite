@@ -3,10 +3,6 @@
 <body class="search-restaurant">
     <main>
         <div class="who-we-are-text">
-
-
-            <br>
-
             <h1>أهلًا 👋🏼</h1>
             <br>
 

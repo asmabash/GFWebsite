@@ -307,6 +307,7 @@ table {
 
 .who-we-are-text{
   margin: 30px;
+  margin-right: 80px;
 }
 
 @media (max-width: 768px) {

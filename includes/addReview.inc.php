@@ -6,7 +6,7 @@ $userRating = $_POST['rating'];
 // $userEmail = $_SESSION['email'];
 $username = $_SESSION['username'];
 $restaurantID = $_SESSION['restaurant-ID'];
-
+if (isset($_SESSION['isLoggedInToGFWebsite.com'])){
 if (isset($_POST['submit'])) {
 
     require_once 'dbh.inc.php';
@@ -18,4 +18,9 @@ if (isset($_POST['submit'])) {
     }
 
     addReview($conn, $reviewText, $userRating, $restaurantID, $username);
+}
+}
+else{
+    header("location: ../add-review.php?error=notloggedin");
+    exit();
 }

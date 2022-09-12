@@ -11,7 +11,7 @@
         <p class="name">
 
         </p>
-        <h1 class="explanation-text">نافذة للبحث عن مطاعم <br> خالية من الجلوتين</h1>
+        <h1 class="explanation-text">نافذة للبحث عن مطاعم <br> داعمة للنظام الخالي من الجلوتين</h1>
         <div class="query-form">
             <button class="mainpage-button button1" type="button" id="search-restaurant" value="search-restaurant" onclick="redirectToSearch();">بحث</button>
             <button class="mainpage-button button2" type="button" id="add-business" value="add-business" onclick="redirectToAddRestaurant();">إضافة</button>

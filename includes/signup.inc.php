@@ -50,6 +50,8 @@ if (isset($_POST['signup-submit'])) {
   createUser($conn, $username, $email, $password);
 } else {
   header("location: ../index.php");
+  echo "openLoginForm();";
+  exit();
 }
 
 

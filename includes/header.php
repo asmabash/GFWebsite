@@ -102,7 +102,7 @@ if (isset($_GET["error"])) {
         echo "<script> openSignupForm();";
         echo "document.getElementById(\"error-msg\").innerHTML = \"البريد الإلكتروني المدخل غير متاح للاستخدام، اختر عنوانًا آخر.\"; </script>";
     } else if ($_GET["error"] == "none") {
-        echo "<script> openLoginForm();";
+        echo "<script> openLoginForm();</script>";
         // echo "document.getElementById(\"error-msg\").innerHTML = \"تمت عملية تسجيلك بنجاح، أهلًا بك!\"; 
         //     document.getElementById(\"error-msg\").classList.add('confirm-msg');</script>";
     } else if ($_GET["error"] == "loginemptyinput") {

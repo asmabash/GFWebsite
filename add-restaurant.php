@@ -5,6 +5,7 @@ require_once 'includes/functions.inc.php';?>
     <main>
         <h2 class="center-h2">ساهم في إضافة مطاعم توفر خيارات خالية من الجلوتين.</h2>
         <div class="wrap search-form">
+        <h2 class="center-h2" style="margin-bottom: 30px;">إضافة مطعم</h2>
             <form action="includes/add-restaurant.inc.php" method="POST">
                 <input type="text" name="restaurant-name" id="restaurant-name" placeholder="اسم المطعم">
                 <input type="text" name="restaurant-city" id="restaurant-city" list="cities-list" placeholder="المدينة">

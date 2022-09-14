@@ -5,6 +5,7 @@ require_once 'includes/functions.inc.php';?>
     <main>
         <h2 class="center-h2">ابحث عن مطاعم خالية من الجلوتين في مدينتك.</h2>
         <div class="wrap search-form">
+        <h2 class="center-h2" style="margin-bottom: 30px;">بحث عن مطاعم</h2>
             <form action="search-results.php" method="GET">
                 <input list="city-options" id="city-choice" name="city-choice" placeholder="المدينة" />
                 <datalist id="city-options">

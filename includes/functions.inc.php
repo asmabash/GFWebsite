@@ -214,7 +214,7 @@ function getNumOfRatings($conn, $restaurantID)
             $num_of_ratings = $row['numOfRatings'];
         }
     }
-    $conn->close();
+    //$conn->close();
     return $num_of_ratings;
 }
 

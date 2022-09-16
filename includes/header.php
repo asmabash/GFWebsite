@@ -29,7 +29,7 @@
         <ul class="nav-menu">
             <li class="nav-item"><a class="nav-link" href="index.php">الصفحة الرئيسية</a></li>
             <li class="nav-item"><a class="nav-link" href="who-we-are.php">من نحن</a></li>
-            <!-- <li class="nav-item"><a href="#">تواصل معنا</a></li> -->
+            <li class="nav-item"><a class="nav-link" href="restaurant-cards.php">بطاقات التعريف</a></li>
             <?php
             if (isset($_SESSION['isLoggedInToGFWebsite.com'])) {
                 echo "<li class=\"nav-item\"><a class=\"nav-link\" href=\"includes/logout.inc.php\">تسجيل خروج</a></li>";

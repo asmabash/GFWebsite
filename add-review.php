@@ -18,7 +18,7 @@ echo "<h2>كيف كانت تجربتك في {$restaurant_name}؟</h2>"; ?>
     </p>
     <br><br>
     <form action="includes/addReview.inc.php" method="POST">
-      <textarea rows="8" cols="44" id="review" name="review" placeholder="حكينا عن تجربتك هنا..">
+      <textarea rows="8" cols="44" id="review" name="review" placeholder="حكينا عن تجربتك هنا.."></textarea>
       <div>
         <br><br>
         <p><label>التقييم: </label></p>

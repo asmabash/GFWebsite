@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <?php session_start(); ?>
 <html lang="ar" dir="rtl">
+
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WCPQPMYT32"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WCPQPMYT32"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-WCPQPMYT32');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WCPQPMYT32');
+    </script>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,12 +34,12 @@
 <path d="M20.5 11.1067C20.5 16.9914 15.9968 21.7133 10.5 21.7133C5.00324 21.7133 0.5 16.9914 0.5 11.1067C0.5 5.22193 5.00324 0.5 10.5 0.5C15.9968 0.5 20.5 5.22193 20.5 11.1067Z" fill="white" stroke="white"/>
 <path d="M17.7268 18.7933L10.5 29.178L3.27318 18.7933H17.7268Z" fill="white" stroke="white"/>
 </svg> -->
-<a class="nav-branding" href="index.php"><svg width="22" height="29" viewBox="0 0 22 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M21.1825 10.8394C21.1825 16.5588 16.5483 21.1499 10.8912 21.1499C5.23419 21.1499 0.599998 16.5588 0.599998 10.8394C0.599998 5.12011 5.23419 0.528992 10.8912 0.528992C16.5483 0.528992 21.1825 5.12011 21.1825 10.8394Z" fill="white" stroke="white"/>
-<path d="M18.6876 17.4749L10.8913 28L3.09485 17.4749H18.6876Z" fill="white" stroke="white"/>
-<circle cx="11.0862" cy="11.0428" r="4.87275" fill="black" fill-opacity="1"/>
-</svg>
-</a>
+        <a class="nav-branding" href="index.php"><svg width="22" height="29" viewBox="0 0 22 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.1825 10.8394C21.1825 16.5588 16.5483 21.1499 10.8912 21.1499C5.23419 21.1499 0.599998 16.5588 0.599998 10.8394C0.599998 5.12011 5.23419 0.528992 10.8912 0.528992C16.5483 0.528992 21.1825 5.12011 21.1825 10.8394Z" fill="white" stroke="white" />
+                <path d="M18.6876 17.4749L10.8913 28L3.09485 17.4749H18.6876Z" fill="white" stroke="white" />
+                <circle cx="11.0862" cy="11.0428" r="4.87275" fill="black" fill-opacity="1" />
+            </svg>
+        </a>
         <ul class="nav-menu">
             <li class="nav-item"><a class="nav-link" href="index.php">الصفحة الرئيسية</a></li>
             <li class="nav-item"><a class="nav-link" href="who-we-are.php">من نحن</a></li>

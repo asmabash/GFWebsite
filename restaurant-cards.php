@@ -1,8 +1,9 @@
 <?php include "includes/header.php"; ?>
 <body class="search-restaurant">
- <main>
         <div class="who-we-are-text">
-            <h1>ايش فايدة هذه البطاقات؟</h1>
+            <h1>بطاقات التعريف بالسيلياك للمطاعم</h1>
+        <details>
+            <summary>ايش فايدة هذه البطاقات؟</summary>
             <br>
             <p>
             تقول لولوة: 
@@ -21,7 +22,16 @@
 <br>
 فأقترح تضاف هذي البطاقات للموقع تساعد الاشخاص وبنفس الوقت لو كثر استخدامها بمطاعم مختلفة رح يزيد الوعي عند المطاعم وتسوي منيو واضح بعلامات حساسية حقيقية وواضحة."
 
-            </p>
+            </p></details>
+            <main>
+<h2>اختر اللغة: </h2>
+<div class="language-buttons">
+<button class="sign-btn language-button" id="tagalog-card">الفلبينية (تاقالوق)</button>
+<button class="sign-btn language-button" id="urdu-card">الهندية (اوردو)</button>
+<button class="sign-btn language-button" id="bangladesh-car">البنقلاديشية</button>
+<button class="sign-btn language-button" id="arabic-card">العربية</button>
+<button class="sign-btn language-button" id="english-card">الانجليزية</button>
+</div>
     </main>
     </div>
     <?php include "includes/footer.php"; ?>

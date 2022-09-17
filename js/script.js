@@ -35,3 +35,22 @@ function makeTransparentHeader(){
   elem.style.backgroundColor = 'transparent';
 }
 
+document.getElementById("tagalog-card").onclick = function () {
+  location.href = "www.yoursite.com";
+};
+
+document.getElementById("urdu-card").onclick = function () {
+  location.href = "www.yoursite.com";
+};
+
+document.getElementById("bangladesh-car").onclick = function () {
+  location.href = "www.yoursite.com";
+};
+
+document.getElementById("arabic-card").onclick = function () {
+  location.href = "www.yoursite.com";
+};
+
+document.getElementById("english-card").onclick = function () {
+  location.href = "www.yoursite.com";
+};

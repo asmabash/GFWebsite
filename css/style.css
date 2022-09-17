@@ -169,6 +169,20 @@ input {
   font-size: 15px;
   border-radius: 5px;
 }
+
+.language-button{  
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border: 1px solid gray;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.language-buttons{
+  width: 250px;
+}
 .center-h2 {
   font-size: 2em;
   text-align: center;
@@ -307,7 +321,8 @@ table {
 
 .who-we-are-text{
   margin: 30px;
-  margin-right: 80px;
+  margin-right: 120px;
+  margin-left: 200px;
 }
 
 @media (max-width: 768px) {

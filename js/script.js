@@ -36,7 +36,7 @@ function makeTransparentHeader(){
 }
 
 document.getElementById("tagalog-card").onclick = function () {
-  location.href = "www.yoursite.com";
+  location.href = "show-restaurant-card.php?card-lang=tagalog";
 };
 
 document.getElementById("urdu-card").onclick = function () {

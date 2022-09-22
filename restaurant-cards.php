@@ -1,9 +1,19 @@
 <?php include "includes/header.php"; ?>
 <body class="search-restaurant">
         <div class="who-we-are-text">
-            <h1>بطاقات التعريف بالسيلياك للمطاعم</h1>
-        <details>
-            <summary>ايش فايدة هذه البطاقات؟</summary>
+            <h1 style="text-align: center;">بطاقات التعريف بالسيلياك للمطاعم</h1>
+            <main>
+<h2>اختر اللغة: </h2>
+<div class="language-buttons">
+<button class="sign-btn language-button" id="tagalog-card" onclick="redirectToTagalogCard()">الفلبينية (تاقالوق)</button>
+<button class="sign-btn language-button" id="urdu-card" onclick="redirectToUrduCard()">الهندية (اوردو)</button>
+<button class="sign-btn language-button" id="bangladesh-car" onclick="redirectToBangladeshCard()">البنقلاديشية</button>
+<button class="sign-btn language-button" id="arabic-card" onclick="redirectToArabicCard()">العربية</button>
+<button class="sign-btn language-button" id="english-card" onclick="redirectToEnglishCard()">الانجليزية</button>
+</div>
+    </main>
+    <details>
+            <summary style="font-size: 24px; margin-top:30px">ايش فايدة هذه البطاقات؟</summary>
             <br>
             <p>
             تقول لولوة: 
@@ -23,18 +33,9 @@
 فأقترح تضاف هذي البطاقات للموقع تساعد الاشخاص وبنفس الوقت لو كثر استخدامها بمطاعم مختلفة رح يزيد الوعي عند المطاعم وتسوي منيو واضح بعلامات حساسية حقيقية وواضحة."
 
             </p></details>
-            <main>
-<h2>اختر اللغة: </h2>
-<div class="language-buttons">
-<button class="sign-btn language-button" id="tagalog-card" onclick="redirectToTagalogCard()">الفلبينية (تاقالوق)</button>
-<button class="sign-btn language-button" id="urdu-card" onclick="redirectToUrduCard()">الهندية (اوردو)</button>
-<button class="sign-btn language-button" id="bangladesh-car" onclick="redirectToBangladeshCard()">البنقلاديشية</button>
-<button class="sign-btn language-button" id="arabic-card" onclick="redirectToArabicCard()">العربية</button>
-<button class="sign-btn language-button" id="english-card" onclick="redirectToEnglishCard()">الانجليزية</button>
-</div>
-    </main>
     </div>
-    <?php include "includes/footer.php"; ?>
+
+            <?php include "includes/footer.php"; ?>
 
 </body>
 

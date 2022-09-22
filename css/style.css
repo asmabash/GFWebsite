@@ -187,7 +187,7 @@ input {
   font-size: 2em;
   text-align: center;
 }
-.center-img{
+.lang-img{
   display: flex;
   justify-content: center;
 }
@@ -404,5 +404,7 @@ align-items: center;
 .main-page-body{
   background-size:1350px;
 }
-
+.who-we-are-text{
+  margin-right: 20px;
+}
 }

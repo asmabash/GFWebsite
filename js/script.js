@@ -35,7 +35,7 @@ function makeTransparentHeader(){
   elem.style.backgroundColor = 'transparent';
 }
 
-document.getElementById("tagalog-card").onclick = function () {
+function redirectToTagalogCard() {
   window.location.href = 'show-restaurant-card.php?card-lang=tagalog';
 };
 

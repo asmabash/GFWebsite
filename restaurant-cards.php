@@ -26,7 +26,7 @@
             <main>
 <h2>اختر اللغة: </h2>
 <div class="language-buttons">
-<button class="sign-btn language-button" id="tagalog-card">الفلبينية (تاقالوق)</button>
+<button class="sign-btn language-button" id="tagalog-card" onclick="redirectToTagalogCard()">الفلبينية (تاقالوق)</button>
 <button class="sign-btn language-button" id="urdu-card">الهندية (اوردو)</button>
 <button class="sign-btn language-button" id="bangladesh-car">البنقلاديشية</button>
 <button class="sign-btn language-button" id="arabic-card">العربية</button>

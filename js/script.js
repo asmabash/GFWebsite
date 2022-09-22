@@ -39,18 +39,18 @@ function redirectToTagalogCard() {
   window.location.href = 'show-restaurant-card.php?card-lang=tagalog';
 };
 
-document.getElementById("urdu-card").onclick = function () {
-  location.href = "www.yoursite.com";
+function redirectToUrduCard() {
+  window.location.href = 'show-restaurant-card.php?card-lang=urdu';
 };
 
-document.getElementById("bangladesh-car").onclick = function () {
-  location.href = "www.yoursite.com";
+function redirectToBangladeshCard() {
+  window.location.href = 'show-restaurant-card.php?card-lang=bangla';
 };
 
-document.getElementById("arabic-card").onclick = function () {
-  location.href = "www.yoursite.com";
+function redirectToArabicCard() {
+  window.location.href = 'show-restaurant-card.php?card-lang=arabic';
 };
 
-document.getElementById("english-card").onclick = function () {
-  location.href = "www.yoursite.com";
+function redirectToEnglishCard() {
+  window.location.href = 'show-restaurant-card.php?card-lang=english';
 };

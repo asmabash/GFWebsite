@@ -3,5 +3,5 @@
 <?php
 if(isset($_GET['card-lang'])){
     $cardLang = $_GET['card-lang'];
-    echo "<img src=\"images/{$cardLang}-gluten-free-restaurant-card.png\" alt=\"بطاقة تعريف سيلياك لغة {$cardLang}\">";
+    echo "<div class=\"center-img\"><img class=\"center-img\" src=\"images/{$cardLang}-gluten-free-restaurant-card.png\" alt=\"بطاقة تعريف سيلياك لغة {$cardLang}\"></div>";
 }

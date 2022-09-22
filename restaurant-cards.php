@@ -27,10 +27,10 @@
 <h2>اختر اللغة: </h2>
 <div class="language-buttons">
 <button class="sign-btn language-button" id="tagalog-card" onclick="redirectToTagalogCard()">الفلبينية (تاقالوق)</button>
-<button class="sign-btn language-button" id="urdu-card">الهندية (اوردو)</button>
-<button class="sign-btn language-button" id="bangladesh-car">البنقلاديشية</button>
-<button class="sign-btn language-button" id="arabic-card">العربية</button>
-<button class="sign-btn language-button" id="english-card">الانجليزية</button>
+<button class="sign-btn language-button" id="urdu-card" onclick="redirectToUrduCard()">الهندية (اوردو)</button>
+<button class="sign-btn language-button" id="bangladesh-car" onclick="redirectToBangladeshCard()">البنقلاديشية</button>
+<button class="sign-btn language-button" id="arabic-card" onclick="redirectToArabicCard()">العربية</button>
+<button class="sign-btn language-button" id="english-card" onclick="redirectToEnglishCard()">الانجليزية</button>
 </div>
     </main>
     </div>

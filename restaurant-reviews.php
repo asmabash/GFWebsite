@@ -18,7 +18,8 @@ while ($row = mysqli_fetch_assoc($resultData)) {
   // echo "{$row['restaurant_name']}";
     echo "<div class=\"container\">";
     //CHANGE TO USERNAME
-    echo "<h3 class=\"user-ID\">{$row['userID']}</h3>";
+    $username = $row['userID'];
+    echo "<h3 class=\"user-ID\">{$username}</h3>";
     $user_rating = $row['rating'];
 
     $num_unchecked_stars = 5 - $user_rating;
@@ -33,6 +34,11 @@ while ($row = mysqli_fetch_assoc($resultData)) {
     }
     echo "</span>";
     echo "<br><p class=\"user-review\">{$row['review_text']}</p>";
+    if($username == $_SESSION['username']){
+
+      echo "<button>حذف</button>
+      <button>تعديل</button>";
+    }
     echo "<hr>";
     
   }

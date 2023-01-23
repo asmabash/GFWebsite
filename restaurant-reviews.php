@@ -19,6 +19,7 @@ while ($row = mysqli_fetch_assoc($resultData)) {
     echo "<div class=\"container\">";
     //CHANGE TO USERNAME
     $username = $row['userID'];
+    $reviewID = $row['review_ID'];
     echo "<h3 class=\"user-ID\">{$username}</h3>";
     $user_rating = $row['rating'];
 
@@ -34,11 +35,11 @@ while ($row = mysqli_fetch_assoc($resultData)) {
     }
     echo "</span>";
     echo "<br><p class=\"user-review\">{$row['review_text']}</p>";
-    if($username == $_SESSION['username']){
+    // if($username == $_SESSION['username']){
 
-      echo "<button>حذف</button>
-      <button>تعديل</button>";
-    }
+    //   echo "<button onClick=\"deleteComment()\">حذف</button>
+    //   <button onClick=\"editComment()\">تعديل</button>";
+    // }
     echo "<hr>";
     
   }

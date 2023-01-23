@@ -54,3 +54,11 @@ function redirectToArabicCard() {
 function redirectToEnglishCard() {
   window.location.href = 'show-restaurant-card.php?card-lang=english';
 };
+
+// function deleteComment(){
+// TODO
+// }
+
+// function editComment(){
+// TODO
+// }
